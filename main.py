@@ -1,11 +1,11 @@
-# Printing every line with number:
+# Just print the people who passed the exam
 
 f = open('inputFile.txt','r')
 
-count = 0
 for line in f:
-    print(str(count) + line)
-    count = count + 1
+    line_split = line.split()
+    if line_split[2] == 'P':
+        print(line)
 
 print(f.read())
 f.close()
