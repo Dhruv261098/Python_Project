@@ -1,4 +1,4 @@
-# Printing every line with number
+# Printing every line with number:
 
 f = open('inputFile.txt','r')
 
